@@ -4,13 +4,13 @@
 //
 // The vow follows the classic wedding-vow shape — "in sickness and in
 // health" — then swaps in the robot couple's own conditions (Wi-Fi versus
-// airplane mode, sharing a charger), and lands the joke in the last few
+// airplane mode, sharing a charger and the last 1% of battery), and lands the
 // words, where the familiar "till death do us part" gets a robot ending.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const VOW =
-  "I vow to love you in sickness and in health, in Wi-Fi and in airplane mode, to share my charger — until death, or a factory reset, do us part.";
+  "I vow to love you in sickness and in health, in Wi-Fi and in airplane mode, to share my charger and my last 1% — until death, or a factory reset, do us part.";
 
 const OUT_PATH = "/output/entry.txt";
 
